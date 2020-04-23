@@ -1,0 +1,29 @@
+.grid{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows:  repeat(3,100px);
+    /* display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px; */
+    /* border: 1px solid black; */
+    cursor: pointer;
+}
+
+h3{
+    font-size: 1.82rem;
+}
+
+#result{
+    font-size: 1.82rem;
+    color: forestgreen;
+    font-weight: bold;
+}
+
+
+
+  .swal-modal { 
+    width:  450px;   
+    height: auto;
+}
